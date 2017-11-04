@@ -1,0 +1,135 @@
+
+input[type=email], input[type=password],input[type=text] {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px 50px 30px 5px;
+    box-sizing: border-box;
+}
+textarea[type=text]{
+    width: 350px;
+    height: 200px;
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px 50px 30px 5px;
+  
+}
+
+div.container {
+    width: 50%;
+    border:1px solid none;
+    background-color:whitesmoke;
+    margin: auto;
+    padding-top: 90px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+}
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: orange;
+    clear: left;
+    text-align: center;
+}
+
+.button1{
+    background-color: lightslategray;
+    padding: 10PX 24PX;
+    border-radius: 8px;
+}
+.button2 {
+    background-color:lightseagreen; 
+    color: black; 
+    border: 2px solid #008CBA;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button3 {
+    background-color:lightcoral; 
+    color: black; 
+    border: 2px solid #f44336;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.button5 {
+    background-color:lightseagreen;
+    color: white;
+    padding:14px 24px;
+    margin: 4px 2px;
+    border: none;
+    cursor: pointer;
+    width: 7%;
+    border-radius: 12px;
+    display: inline-block;
+}
+.button6 {
+    background-color:brown;
+    color: white;
+    padding: 14px 40px;
+    margin: 4px 2px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 9px
+}
+.button7 {
+    background-color:darkcyan;
+    color: white;
+    padding: 10px 24px;
+    margin: 6px 2px;
+    border: none;
+    cursor: pointer;
+    width: 12%;
+    border-radius: 12px
+}

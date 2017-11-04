@@ -1,0 +1,26 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0"/>
+  <link href="editor/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="static/editor/codemirror.min.css">
+  <link href="editor/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+  <link href="editor/css/froala_style.min.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+<body>
+<textarea id="froala-editor">Initialize the Froala WYSIWYG HTML Editor on a textarea.</textarea>
+  <script type="text/javascript" src="static/js/jquery.min.js"></script>
+  <script type="text/javascript" src="editor/js/codemirror.min.js"></script>
+  <script type="text/javascript" src="editor/js/xml.min.js"></script>
+  <script type="text/javascript" src="editor/js/froala_editor.pkgd.min.js"></script>
+
+
+
+    <script>
+  $(function() {
+    $('textarea#froala-editor').froalaEditor()
+  });
+</script>
+</body>
+</html>
