@@ -31,7 +31,7 @@ Flask-Uploads==0.2.1
 Flask-User==0.6.19
 Flask-WTF==0.14.2
 gunicorn==19.7.1
-httplib2==0.10.3
+httplib2==0.18.0
 idna==2.6
 isodate==0.5.4
 itsdangerous==0.24
